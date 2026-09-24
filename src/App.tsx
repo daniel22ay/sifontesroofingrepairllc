@@ -281,8 +281,8 @@ export default function App() {
         )}
       </main>
 
-      {/* Floating Desktop AI Chat Button */}
-      <aside aria-label="Virtual roofing assistant" className="hidden md:block fixed bottom-6 right-6 z-40">
+      {/* Floating Desktop AI Chat Button (Positioned at bottom-left) */}
+      <aside aria-label="Virtual roofing assistant" className="hidden md:block fixed bottom-6 left-6 z-40">
         <button
           onClick={() => setIsChatOpen(true)}
           className="flex items-center gap-2.5 px-4 py-3 bg-[#FBCB06] hover:bg-[#E5B804] text-neutral-950 font-black rounded-full shadow-2xl hover:shadow-[#FBCB06]/30 border-2 border-black/30 transition-all transform hover:-translate-y-0.5 active:translate-y-0 cursor-pointer"

@@ -184,7 +184,7 @@ export const ChatbotModal: React.FC<ChatbotModalProps> = ({
   };
 
   return (
-    <div className="fixed inset-0 z-50 flex items-center justify-center p-3 sm:p-4 bg-black/80 backdrop-blur-sm animate-in fade-in">
+    <div className="fixed inset-0 z-50 flex items-center sm:items-end justify-center sm:justify-start p-3 sm:p-6 bg-black/75 backdrop-blur-sm animate-in fade-in">
       <div className="w-full max-w-lg bg-[#0B0F17] border border-[#1F293D] rounded-2xl shadow-2xl flex flex-col h-[600px] max-h-[90vh] overflow-hidden">
         {/* Assistant Header */}
         <div className="p-4 bg-[#121824] border-b border-[#1F293D] flex items-center justify-between">
