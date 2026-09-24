@@ -1,0 +1,6 @@
+{
+  "name": "Sifontes Roofing & Repair LLC",
+  "description": "Trusted roof repair and leak detection experts in Naples, Florida. Tile, metal, shingle, and low-slope roof repairs, inspections, and storm damage service.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
